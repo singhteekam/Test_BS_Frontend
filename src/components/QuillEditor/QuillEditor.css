@@ -1,0 +1,18 @@
+/* @import url('https://cdn.quilljs.com/1.3.6/quill.snow.css'); */
+
+.quill-editor-container {
+    height: 20em;
+    /* Adjust the height as needed */
+    overflow-y: auto;
+}
+
+.quill-editor-container .ql-toolbar {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    /* Adjust the background color as needed */
+    z-index: 1;
+}
+
+
+
