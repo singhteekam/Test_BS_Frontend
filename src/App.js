@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 
 import LoginPage from "components/LoginPage/LoginPage.js";
 import SignupPage from "components/SignUpPage/SignupPage.js";
@@ -37,7 +37,7 @@ import ScrollToTop from "utils/ScrollToTop";
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Header />
 
         <Helmet>
@@ -126,7 +126,7 @@ const App = () => {
           </Routes>
         </main>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 };
